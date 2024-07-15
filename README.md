@@ -4,7 +4,7 @@ This bash script automates the process of subdomain enumeration for a given doma
 
 ## Features
 
-- **Tool Check**: Verifies that necessary tools (`host`, `dig`, `curl`, `jq`) are installed.
+- **Tool Check**: Verifies the necessary tools (`host`, `dig`, `curl`, `jq`) are installed.
 - **DNS Enumeration**: Uses `dig` to enumerate DNS records (A, AAAA, CNAME, MX, NS).
 - **Web Scraping**: Scrapes `crt.sh` and Google for subdomains.
 - **Certificate Transparency Logs**: Fetches subdomains from certificate transparency logs.
